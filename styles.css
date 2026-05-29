@@ -41,21 +41,43 @@ p {
 }
 
 .project-card {
-    background: #242424;
-    padding: 18px;
-    border-radius: 12px;
-    margin-top: 5px;
+  background: #242424;
+  padding: 18px;
+  border-radius: 12px;
+  margin-top: 5px;
 }
 
 .teches {
-    display: flex;
-    gap: 7px;
-    flex-wrap: wrap;
-    
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
 }
 
 .teches span {
-    padding: 5px 10px;
-    background: #2a2a2a;
-    border-radius: 8px;
+  padding: 5px 10px;
+  background: #2a2a2a;
+  border-radius: 8px;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+a {
+  color: #c9d1d9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact h2 {
+  margin-bottom: 5px;
+}
+
+.contact p {
+  margin: 0px 0;
 }
