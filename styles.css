@@ -1,11 +1,11 @@
 body {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
   background-color: #1a1a1a;
   color: white;
-  
-  width: 600px;
-  margin: 0 auto;
-  text-align: left;
-  
+
   font-size: 16px;
   font-family: 'Vollkorn', serif;
 }
@@ -15,19 +15,47 @@ h1 {
   margin-bottom: 5px;
 
   font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h2 {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 0px;
 
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 p {
   margin: 5px 0px;
 
   font-weight: 100;
+}
+
+.project-card {
+    background: #242424;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+.teches {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    
+}
+
+.teches span {
+    padding: 5px 10px;
+    background: #2a2a2a;
+    border-radius: 8px;
 }
