@@ -1,13 +1,18 @@
 body {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-
   background-color: #1a1a1a;
   color: white;
-
   font-size: 16px;
   font-family: 'Vollkorn', serif;
+
+  margin: 0;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 600px;
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 h1 {
