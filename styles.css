@@ -7,12 +7,14 @@ body {
   max-width: 600px;
   width: calc(100% - 32px);
   margin: 0 auto;
-  margin-top: 7vh;
+  margin-top: max(25px, calc(12vh - 55px));
+  margin-bottom: 25px;
   padding: 0 16px;
 }
 
 h1 {
-  margin-bottom: 0vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   font-size: 1.2em;
   font-weight: 600;
@@ -80,4 +82,26 @@ a:hover {
 
 .contact p {
   margin: 0px 0;
+}
+
+.languageSelect {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#englishSelect {
+  cursor: pointer;
+}
+
+#englishSelect:hover { 
+  text-decoration: underline;
+}
+
+#germanSelect {
+  cursor: pointer;
+}
+
+#germanSelect:hover {
+  text-decoration: underline;
 }

@@ -10,7 +10,7 @@ My personal frontend portfolio built with HTML, CSS and JavaScript.
 - Modern layout
 - Mobile-friendly UI
 
-## Demo
+## Live Demo
 GitHub Pages: https://its-undefined.github.io/
 
 ## Repository
