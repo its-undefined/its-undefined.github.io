@@ -88,20 +88,22 @@ a:hover {
   position: absolute;
   right: 20px;
   top: 20px;
+  color: #c7c7c7;
 }
 
-#englishSelect {
-  cursor: pointer;
-}
-
-#englishSelect:hover { 
-  text-decoration: underline;
-}
-
+#englishSelect,
 #germanSelect {
   cursor: pointer;
+  padding: 3px;
 }
 
-#germanSelect:hover {
+#englishSelect:hover,
+#germanSelect:hover { 
   text-decoration: underline;
+}
+
+#englishSelect.active,
+#germanSelect.active { 
+  background: #141414;
+  border-radius: 2px;
 }

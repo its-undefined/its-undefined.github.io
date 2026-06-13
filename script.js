@@ -17,8 +17,20 @@ function updateTexts() {
 
 // Change language
 function changeLanguage(lang) {
+  const englishButton = document.getElementById('englishSelect');
+  const germanButton = document.getElementById('germanSelect');
+
   currentLang = lang;
   localStorage.setItem('lang', lang);
+
+  englishButton.classList.remove('active');
+  germanButton.classList.remove('active');
+
+  if (lang === 'en') {
+    englishButton.classList.add('active')
+  } else if (lang === 'de') {
+    germanButton.classList.add('active')
+  }
 
   updateTexts();
 }
