@@ -1,7 +1,21 @@
 // Import translations
 import { translations } from "./translations.js";
 
+// Load language preference
 let currentLang = localStorage.getItem('lang') || 'en';
+
+// Load class 'active'
+const englishButton = document.getElementById('englishSelect');
+const germanButton = document.getElementById('germanSelect');
+
+englishButton.classList.remove('active');
+germanButton.classList.remove('active');
+
+if (currentLang === 'en') {
+  englishButton.classList.add('active')
+} else if (currentLang === 'de') {
+  germanButton.classList.add('active')
+}
 
 // Translate helper
 function translate(key) {
@@ -17,20 +31,8 @@ function updateTexts() {
 
 // Change language
 function changeLanguage(lang) {
-  const englishButton = document.getElementById('englishSelect');
-  const germanButton = document.getElementById('germanSelect');
-
   currentLang = lang;
   localStorage.setItem('lang', lang);
-
-  englishButton.classList.remove('active');
-  germanButton.classList.remove('active');
-
-  if (lang === 'en') {
-    englishButton.classList.add('active')
-  } else if (lang === 'de') {
-    germanButton.classList.add('active')
-  }
 
   updateTexts();
 }
