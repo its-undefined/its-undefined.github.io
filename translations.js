@@ -8,11 +8,13 @@ export const translations = {
     "about.p2": "Learning HTML, CSS, JavaScript and Git through practice and online resources.",
 
     "projects.title": "Projects",
+    "projects.p1": "Here are some real projects I built.",
     "project.portfolio.title": "Portfolio Website",
     "project.portfolio.desc": "Personal portfolio website built with HTML, CSS and JavaScript.",
 
-    "project.notepad.title": "Projects",
     "project.notepad.desc": "A simple app for writing and managing notes.",
+
+    "project.calculator.desc": "A simple calculator for basic arithmetic operations.",
 
     "contact.title": "Contact"
   },
@@ -24,10 +26,13 @@ export const translations = {
     "about.p2": "Ich lerne HTML, CSS, JavaScript und Git durch praktische Projekte.",
 
     "projects.title": "Projekte",
+    "projects.p1": "Hier sind einige reale Projekte, die ich entwickelt habe.",
     "project.portfolio.title": "Portfolio Webseite",
     "project.portfolio.desc": "Persönliche Portfolio-Website mit HTML, CSS und JavaScript.",
 
     "project.notepad.desc": "Eine einfache App zum Schreiben und Verwalten von Notizen.",
+
+    "project.calculator.desc": "Ein einfacher Taschenrechner für grundlegende Rechenoperationen.",
 
     "contact.title": "Kontakt"
   }

@@ -3,18 +3,19 @@ import { translations } from "./translations.js";
 
 // Load language preference
 let currentLang = localStorage.getItem('lang') || 'en';
-
-// Load class 'active'
 const englishButton = document.getElementById('englishSelect');
 const germanButton = document.getElementById('germanSelect');
 
-englishButton.classList.remove('active');
-germanButton.classList.remove('active');
+// Load 'active' class
+function updateLangSelection() {
+  englishButton.classList.remove('active');
+  germanButton.classList.remove('active');
 
-if (currentLang === 'en') {
-  englishButton.classList.add('active')
-} else if (currentLang === 'de') {
-  germanButton.classList.add('active')
+  if (currentLang === 'en') {
+    englishButton.classList.add('active')
+  } else if (currentLang === 'de') {
+    germanButton.classList.add('active')
+  }
 }
 
 // Translate helper
@@ -38,15 +39,15 @@ function changeLanguage(lang) {
 }
 
 // Language selection buttons
-document.getElementById('englishSelect').addEventListener('click', () => {
-  changeLanguage("en");
+englishButton.addEventListener('click', () => {
+  changeLanguage('en');
+  updateLangSelection();
 });
 
-document.getElementById('germanSelect').addEventListener('click', () => {
-  changeLanguage("de");
+germanButton.addEventListener('click', () => {
+  changeLanguage('de');
+  updateLangSelection();
 });
 
+updateLangSelection();
 updateTexts();
-
-// Set current language radio button as checked
-// document.querySelector(`input[value="${currentLang}"]`).checked = true;
