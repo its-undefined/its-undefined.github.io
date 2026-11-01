@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   font-family: 'Vollkorn', serif;
 
-  max-width: 600px;
+  max-width: 626px;
   width: calc(100% - 32px);
   margin: 0 auto;
   margin-top: max(25px, calc(12vh - 55px));

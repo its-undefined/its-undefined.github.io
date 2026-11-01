@@ -8,15 +8,13 @@ export const translations = {
     "about.p2": "Learning HTML, CSS, JavaScript and Git through practice and online resources.",
 
     "skills.title": "Skills",
+    "skills.responsive-design": "Responsive Design",
 
     "projects.title": "Projects",
-    "projects.p1": "Here are some projects I built.",
+    "projects.p1": "Here are two projects I've built so far.",
     "project.portfolio.title": "Portfolio Website",
     "project.portfolio.desc": "Personal portfolio website built with HTML, CSS and JavaScript.",
-
     "project.notepad.desc": "A simple app for writing and managing notes.",
-
-    "project.calculator.desc": "A simple calculator for basic arithmetic operations.",
 
     "contact.title": "Contact"
   },
@@ -25,17 +23,16 @@ export const translations = {
 
     "about.title": "Über mich",
     "about.p1": "Ich bin ein autodidaktischer Frontend-Entwickler und lerne moderne Webentwicklung.",
-    "about.p2": "Ich lerne HTML, CSS, JavaScript und Git durch praktische Projekte.",
+    "about.p2": "Ich lerne HTML, CSS, JavaScript und Git durch praktische Projekte und mithilfe von Online-Ressourcen..",
 
     "skills.title": "Fähigkeiten",
+    "skills.responsive-design": "Responsives Webdesign",
 
     "projects.title": "Projekte",
-    "projects.p1": "Hier sind einige Projekte, die ich entwickelt habe.",
+    "projects.p1": "Hier sind zwei Projekte, die ich bisher entwickelt habe.",
     "project.portfolio.title": "Portfolio Webseite",
     "project.portfolio.desc": "Persönliche Portfolio-Website mit HTML, CSS und JavaScript.",
-
     "project.notepad.desc": "Eine einfache App zum Schreiben und Verwalten von Notizen.",
-    "project.calculator.desc": "Ein einfacher Taschenrechner für grundlegende Rechenoperationen.",
 
     "contact.title": "Kontakt"
   }
